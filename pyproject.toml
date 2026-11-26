@@ -1,0 +1,10 @@
+[project]
+name = "sitewatch"
+version = "0.1.0"
+description = "Read-only website health and link checker"
+requires-python = ">=3.9"
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.scripts]
+sitewatch = "sitewatch.cli:main"
